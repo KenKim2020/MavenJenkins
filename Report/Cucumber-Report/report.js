@@ -152,29 +152,27 @@ formatter.match({
   "location": "LoginTest.I_Open_Chrome_Browser()"
 });
 formatter.result({
-  "duration": 5261726000,
-  "status": "passed"
+  "duration": 266997100,
+  "error_message": "java.lang.IllegalStateException: The driver executable does not exist: C:\\Users\\My PC\\eclipse-workspace\\com.codegator.cucumber\\Drivers\\phantomjs\r\n\tat com.google.common.base.Preconditions.checkState(Preconditions.java:585)\r\n\tat org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:146)\r\n\tat org.openqa.selenium.phantomjs.PhantomJSDriverService.findPhantomJS(PhantomJSDriverService.java:245)\r\n\tat org.openqa.selenium.phantomjs.PhantomJSDriverService.createDefaultService(PhantomJSDriverService.java:181)\r\n\tat org.openqa.selenium.phantomjs.PhantomJSDriver.\u003cinit\u003e(PhantomJSDriver.java:105)\r\n\tat stepDefinition.LoginTest.I_Open_Chrome_Browser(LoginTest.java:28)\r\n\tat ✽.Given I Open Chrome Browser(Feature/login.feature:5)\r\n",
+  "status": "failed"
 });
 formatter.match({
   "location": "LoginTest.I_maxmize_the_webbrowser()"
 });
 formatter.result({
-  "duration": 2133923600,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "LoginTest.I_go_to_the_Salesforce_application()"
 });
 formatter.result({
-  "duration": 1300436000,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "LoginTest.I_should_see_the_Salesforce_logo()"
 });
 formatter.result({
-  "duration": 350173000,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.scenario({
   "line": 27,
@@ -266,8 +264,7 @@ formatter.match({
   "location": "AccountTest.I_enter_username(String)"
 });
 formatter.result({
-  "duration": 1466315700,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -279,78 +276,67 @@ formatter.match({
   "location": "AccountTest.I_enter_password(String)"
 });
 formatter.result({
-  "duration": 210116700,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "LoginTest.I_click_the_login_button()"
 });
 formatter.result({
-  "duration": 1553627200,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "LoginTest.I_should_see_the_logot_link()"
 });
 formatter.result({
-  "duration": 4016912400,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "AccountTest.I_click_the_Accounts_Tab()"
 });
 formatter.result({
-  "duration": 268024800,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "AccountTest.I_am_on_Accounts_Home_Page()"
 });
 formatter.result({
-  "duration": 623786800,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "AccountTest.I_click_the_New_Button()"
 });
 formatter.result({
-  "duration": 932187400,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "AccountTest.I_enter_in_Account_Name()"
 });
 formatter.result({
-  "duration": 220597800,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "AccountTest.I_enter_the_Account_Number()"
 });
 formatter.result({
-  "duration": 276451500,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "AccountTest.I_enter_the_Account_Site()"
 });
 formatter.result({
-  "duration": 181845600,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "AccountTest.I_click_save()"
 });
 formatter.result({
-  "duration": 2329482600,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "AccountTest.I_should_see_the_Account_Record()"
 });
 formatter.result({
-  "duration": 40389700,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.background({
   "line": 4,
@@ -383,29 +369,27 @@ formatter.match({
   "location": "LoginTest.I_Open_Chrome_Browser()"
 });
 formatter.result({
-  "duration": 3459999500,
-  "status": "passed"
+  "duration": 461600,
+  "error_message": "java.lang.IllegalStateException: The driver executable does not exist: C:\\Users\\My PC\\eclipse-workspace\\com.codegator.cucumber\\Drivers\\phantomjs\r\n\tat com.google.common.base.Preconditions.checkState(Preconditions.java:585)\r\n\tat org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:146)\r\n\tat org.openqa.selenium.phantomjs.PhantomJSDriverService.findPhantomJS(PhantomJSDriverService.java:245)\r\n\tat org.openqa.selenium.phantomjs.PhantomJSDriverService.createDefaultService(PhantomJSDriverService.java:181)\r\n\tat org.openqa.selenium.phantomjs.PhantomJSDriver.\u003cinit\u003e(PhantomJSDriver.java:105)\r\n\tat stepDefinition.LoginTest.I_Open_Chrome_Browser(LoginTest.java:28)\r\n\tat ✽.Given I Open Chrome Browser(Feature/login.feature:5)\r\n",
+  "status": "failed"
 });
 formatter.match({
   "location": "LoginTest.I_maxmize_the_webbrowser()"
 });
 formatter.result({
-  "duration": 2148319000,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "LoginTest.I_go_to_the_Salesforce_application()"
 });
 formatter.result({
-  "duration": 1601222000,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "LoginTest.I_should_see_the_Salesforce_logo()"
 });
 formatter.result({
-  "duration": 372442200,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.scenario({
   "line": 28,
@@ -497,8 +481,7 @@ formatter.match({
   "location": "AccountTest.I_enter_username(String)"
 });
 formatter.result({
-  "duration": 2070127100,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -510,78 +493,67 @@ formatter.match({
   "location": "AccountTest.I_enter_password(String)"
 });
 formatter.result({
-  "duration": 177884600,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "LoginTest.I_click_the_login_button()"
 });
 formatter.result({
-  "duration": 153431300,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "LoginTest.I_should_see_the_logot_link()"
 });
 formatter.result({
-  "duration": 3314277200,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "AccountTest.I_click_the_Accounts_Tab()"
 });
 formatter.result({
-  "duration": 864426200,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "AccountTest.I_am_on_Accounts_Home_Page()"
 });
 formatter.result({
-  "duration": 654049300,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "AccountTest.I_click_the_New_Button()"
 });
 formatter.result({
-  "duration": 753247600,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "AccountTest.I_enter_in_Account_Name()"
 });
 formatter.result({
-  "duration": 307987400,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "AccountTest.I_enter_the_Account_Number()"
 });
 formatter.result({
-  "duration": 212288700,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "AccountTest.I_enter_the_Account_Site()"
 });
 formatter.result({
-  "duration": 249850900,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "AccountTest.I_click_save()"
 });
 formatter.result({
-  "duration": 2769450600,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "AccountTest.I_should_see_the_Account_Record()"
 });
 formatter.result({
-  "duration": 280563200,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.background({
   "line": 4,
@@ -614,29 +586,27 @@ formatter.match({
   "location": "LoginTest.I_Open_Chrome_Browser()"
 });
 formatter.result({
-  "duration": 4553368100,
-  "status": "passed"
+  "duration": 511100,
+  "error_message": "java.lang.IllegalStateException: The driver executable does not exist: C:\\Users\\My PC\\eclipse-workspace\\com.codegator.cucumber\\Drivers\\phantomjs\r\n\tat com.google.common.base.Preconditions.checkState(Preconditions.java:585)\r\n\tat org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:146)\r\n\tat org.openqa.selenium.phantomjs.PhantomJSDriverService.findPhantomJS(PhantomJSDriverService.java:245)\r\n\tat org.openqa.selenium.phantomjs.PhantomJSDriverService.createDefaultService(PhantomJSDriverService.java:181)\r\n\tat org.openqa.selenium.phantomjs.PhantomJSDriver.\u003cinit\u003e(PhantomJSDriver.java:105)\r\n\tat stepDefinition.LoginTest.I_Open_Chrome_Browser(LoginTest.java:28)\r\n\tat ✽.Given I Open Chrome Browser(Feature/login.feature:5)\r\n",
+  "status": "failed"
 });
 formatter.match({
   "location": "LoginTest.I_maxmize_the_webbrowser()"
 });
 formatter.result({
-  "duration": 2209324100,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "LoginTest.I_go_to_the_Salesforce_application()"
 });
 formatter.result({
-  "duration": 2636564800,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "LoginTest.I_should_see_the_Salesforce_logo()"
 });
 formatter.result({
-  "duration": 711363100,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.scenario({
   "line": 29,
@@ -728,8 +698,7 @@ formatter.match({
   "location": "AccountTest.I_enter_username(String)"
 });
 formatter.result({
-  "duration": 2564398600,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -741,77 +710,66 @@ formatter.match({
   "location": "AccountTest.I_enter_password(String)"
 });
 formatter.result({
-  "duration": 212515300,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "LoginTest.I_click_the_login_button()"
 });
 formatter.result({
-  "duration": 921376700,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "LoginTest.I_should_see_the_logot_link()"
 });
 formatter.result({
-  "duration": 2375270400,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "AccountTest.I_click_the_Accounts_Tab()"
 });
 formatter.result({
-  "duration": 698668300,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "AccountTest.I_am_on_Accounts_Home_Page()"
 });
 formatter.result({
-  "duration": 648695300,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "AccountTest.I_click_the_New_Button()"
 });
 formatter.result({
-  "duration": 775249100,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "AccountTest.I_enter_in_Account_Name()"
 });
 formatter.result({
-  "duration": 196358100,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "AccountTest.I_enter_the_Account_Number()"
 });
 formatter.result({
-  "duration": 160546800,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "AccountTest.I_enter_the_Account_Site()"
 });
 formatter.result({
-  "duration": 185710700,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "AccountTest.I_click_save()"
 });
 formatter.result({
-  "duration": 1739444600,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "AccountTest.I_should_see_the_Account_Record()"
 });
 formatter.result({
-  "duration": 24243900,
-  "status": "passed"
+  "status": "skipped"
 });
 });

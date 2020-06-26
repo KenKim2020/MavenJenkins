@@ -4,7 +4,9 @@ import java.util.concurrent.TimeUnit;
 
 import org.junit.Assert;
 import org.openqa.selenium.By;
-import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.phantomjs.PhantomJSDriver;
+import org.openqa.selenium.phantomjs.PhantomJSDriverService;
+import org.openqa.selenium.remote.DesiredCapabilities;
 
 import Utilities.BaseClass;
 import cucumber.api.java.en.Given;
@@ -16,9 +18,15 @@ public class LoginTest extends BaseClass{
 	
 	@Given("^I Open Chrome Browser$")
 	public void I_Open_Chrome_Browser() {
-		System.setProperty("webdriver.chrome.driver",
-				"E:\\School\\Selenium Drivers\\chromedriver_v83\\chromedriver.exe");
-		driver = new ChromeDriver();
+//		System.setProperty("webdriver.chrome.driver",
+//				"E:\\School\\Selenium Drivers\\chromedriver_v83\\chromedriver.exe");
+//		driver = new ChromeDriver();
+		
+		caps = new DesiredCapabilities();
+        caps.setJavascriptEnabled(true); // not really needed: JS enabled by default
+        caps.setCapability(PhantomJSDriverService.PHANTOMJS_EXECUTABLE_PATH_PROPERTY, System.getProperty("user.dir") + "/Drivers/phantomjs");
+        driver = new PhantomJSDriver(caps);
+		
 		driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 	}
