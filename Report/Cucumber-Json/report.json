@@ -11,9 +11,8 @@
         "steps": [
           {
             "result": {
-              "duration": 266997100,
-              "error_message": "java.lang.IllegalStateException: The driver executable does not exist: C:\\Users\\My PC\\eclipse-workspace\\com.codegator.cucumber\\Drivers\\phantomjs\r\n\tat com.google.common.base.Preconditions.checkState(Preconditions.java:585)\r\n\tat org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:146)\r\n\tat org.openqa.selenium.phantomjs.PhantomJSDriverService.findPhantomJS(PhantomJSDriverService.java:245)\r\n\tat org.openqa.selenium.phantomjs.PhantomJSDriverService.createDefaultService(PhantomJSDriverService.java:181)\r\n\tat org.openqa.selenium.phantomjs.PhantomJSDriver.\u003cinit\u003e(PhantomJSDriver.java:105)\r\n\tat stepDefinition.LoginTest.I_Open_Chrome_Browser(LoginTest.java:28)\r\n\tat ✽.Given I Open Chrome Browser(Feature/login.feature:5)\r\n",
-              "status": "failed"
+              "duration": 4333929100,
+              "status": "passed"
             },
             "line": 5,
             "name": "I Open Chrome Browser",
@@ -24,7 +23,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 10838700,
+              "status": "passed"
             },
             "line": 6,
             "name": "I maxmize the webbrowser",
@@ -35,7 +35,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 2665223800,
+              "status": "passed"
             },
             "line": 7,
             "name": "I go to the Salesforce application",
@@ -46,7 +47,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 95633100,
+              "status": "passed"
             },
             "line": 8,
             "name": "I should see the Salesforce logo",
@@ -67,7 +69,8 @@
         "steps": [
           {
             "result": {
-              "status": "skipped"
+              "duration": 149915900,
+              "status": "passed"
             },
             "line": 12,
             "name": "I enter \"batch03@codegator.us.qa\" username",
@@ -87,7 +90,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 269377900,
+              "status": "passed"
             },
             "line": 13,
             "name": "I enter \"Pa55word\" password",
@@ -107,7 +111,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 4057024000,
+              "status": "passed"
             },
             "line": 14,
             "name": "I click the login button",
@@ -118,7 +123,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 104200800,
+              "status": "passed"
             },
             "line": 15,
             "name": "I should see the logout link",
@@ -129,7 +135,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 776656700,
+              "status": "passed"
             },
             "line": 16,
             "name": "I click the Accounts Tab",
@@ -140,7 +147,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 38068100,
+              "status": "passed"
             },
             "line": 17,
             "name": "I am on Accounts Home Page",
@@ -151,7 +159,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 977053500,
+              "status": "passed"
             },
             "line": 18,
             "name": "I click the New button",
@@ -162,7 +171,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 96193000,
+              "status": "passed"
             },
             "line": 19,
             "name": "I enter in Account Name",
@@ -173,7 +183,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 77108600,
+              "status": "passed"
             },
             "line": 20,
             "name": "I enter the Account Number",
@@ -184,7 +195,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 118796900,
+              "status": "passed"
             },
             "line": 21,
             "name": "I enter the Account Site",
@@ -195,7 +207,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 1690639000,
+              "status": "passed"
             },
             "line": 22,
             "name": "I click save",
@@ -206,7 +219,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 9746500,
+              "status": "passed"
             },
             "line": 23,
             "name": "I should see the Account Record",
@@ -232,9 +246,8 @@
         "steps": [
           {
             "result": {
-              "duration": 461600,
-              "error_message": "java.lang.IllegalStateException: The driver executable does not exist: C:\\Users\\My PC\\eclipse-workspace\\com.codegator.cucumber\\Drivers\\phantomjs\r\n\tat com.google.common.base.Preconditions.checkState(Preconditions.java:585)\r\n\tat org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:146)\r\n\tat org.openqa.selenium.phantomjs.PhantomJSDriverService.findPhantomJS(PhantomJSDriverService.java:245)\r\n\tat org.openqa.selenium.phantomjs.PhantomJSDriverService.createDefaultService(PhantomJSDriverService.java:181)\r\n\tat org.openqa.selenium.phantomjs.PhantomJSDriver.\u003cinit\u003e(PhantomJSDriver.java:105)\r\n\tat stepDefinition.LoginTest.I_Open_Chrome_Browser(LoginTest.java:28)\r\n\tat ✽.Given I Open Chrome Browser(Feature/login.feature:5)\r\n",
-              "status": "failed"
+              "duration": 2218588900,
+              "status": "passed"
             },
             "line": 5,
             "name": "I Open Chrome Browser",
@@ -245,7 +258,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 6462700,
+              "status": "passed"
             },
             "line": 6,
             "name": "I maxmize the webbrowser",
@@ -256,7 +270,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 2588445100,
+              "status": "passed"
             },
             "line": 7,
             "name": "I go to the Salesforce application",
@@ -267,7 +282,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 56016600,
+              "status": "passed"
             },
             "line": 8,
             "name": "I should see the Salesforce logo",
@@ -288,7 +304,8 @@
         "steps": [
           {
             "result": {
-              "status": "skipped"
+              "duration": 141758800,
+              "status": "passed"
             },
             "line": 12,
             "name": "I enter \"batch03@codegator.us.qa\" username",
@@ -308,7 +325,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 157137400,
+              "status": "passed"
             },
             "line": 13,
             "name": "I enter \"Pa55word\" password",
@@ -328,7 +346,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 670422900,
+              "status": "passed"
             },
             "line": 14,
             "name": "I click the login button",
@@ -339,7 +358,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 1075248300,
+              "status": "passed"
             },
             "line": 15,
             "name": "I should see the logout link",
@@ -350,7 +370,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 1034839200,
+              "status": "passed"
             },
             "line": 16,
             "name": "I click the Accounts Tab",
@@ -361,7 +382,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 56914700,
+              "status": "passed"
             },
             "line": 17,
             "name": "I am on Accounts Home Page",
@@ -372,7 +394,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 824440800,
+              "status": "passed"
             },
             "line": 18,
             "name": "I click the New button",
@@ -383,7 +406,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 113246000,
+              "status": "passed"
             },
             "line": 19,
             "name": "I enter in Account Name",
@@ -394,7 +418,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 110800200,
+              "status": "passed"
             },
             "line": 20,
             "name": "I enter the Account Number",
@@ -405,7 +430,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 108915000,
+              "status": "passed"
             },
             "line": 21,
             "name": "I enter the Account Site",
@@ -416,7 +442,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 388220300,
+              "status": "passed"
             },
             "line": 22,
             "name": "I click save",
@@ -427,7 +454,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 5946300,
+              "status": "passed"
             },
             "line": 23,
             "name": "I should see the Account Record",
@@ -453,9 +481,8 @@
         "steps": [
           {
             "result": {
-              "duration": 511100,
-              "error_message": "java.lang.IllegalStateException: The driver executable does not exist: C:\\Users\\My PC\\eclipse-workspace\\com.codegator.cucumber\\Drivers\\phantomjs\r\n\tat com.google.common.base.Preconditions.checkState(Preconditions.java:585)\r\n\tat org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:146)\r\n\tat org.openqa.selenium.phantomjs.PhantomJSDriverService.findPhantomJS(PhantomJSDriverService.java:245)\r\n\tat org.openqa.selenium.phantomjs.PhantomJSDriverService.createDefaultService(PhantomJSDriverService.java:181)\r\n\tat org.openqa.selenium.phantomjs.PhantomJSDriver.\u003cinit\u003e(PhantomJSDriver.java:105)\r\n\tat stepDefinition.LoginTest.I_Open_Chrome_Browser(LoginTest.java:28)\r\n\tat ✽.Given I Open Chrome Browser(Feature/login.feature:5)\r\n",
-              "status": "failed"
+              "duration": 2241443300,
+              "status": "passed"
             },
             "line": 5,
             "name": "I Open Chrome Browser",
@@ -466,7 +493,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 7796800,
+              "status": "passed"
             },
             "line": 6,
             "name": "I maxmize the webbrowser",
@@ -477,7 +505,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 2975048500,
+              "status": "passed"
             },
             "line": 7,
             "name": "I go to the Salesforce application",
@@ -488,7 +517,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 112252300,
+              "status": "passed"
             },
             "line": 8,
             "name": "I should see the Salesforce logo",
@@ -509,7 +539,8 @@
         "steps": [
           {
             "result": {
-              "status": "skipped"
+              "duration": 127722100,
+              "status": "passed"
             },
             "line": 12,
             "name": "I enter \"batch03@codegator.us.qa\" username",
@@ -529,7 +560,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 219262200,
+              "status": "passed"
             },
             "line": 13,
             "name": "I enter \"Pa55word\" password",
@@ -549,7 +581,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 2820688300,
+              "status": "passed"
             },
             "line": 14,
             "name": "I click the login button",
@@ -560,7 +593,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 50411500,
+              "status": "passed"
             },
             "line": 15,
             "name": "I should see the logout link",
@@ -571,7 +605,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 614165700,
+              "status": "passed"
             },
             "line": 16,
             "name": "I click the Accounts Tab",
@@ -582,7 +617,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 47566700,
+              "status": "passed"
             },
             "line": 17,
             "name": "I am on Accounts Home Page",
@@ -593,7 +629,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 619498400,
+              "status": "passed"
             },
             "line": 18,
             "name": "I click the New button",
@@ -604,7 +641,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 78690300,
+              "status": "passed"
             },
             "line": 19,
             "name": "I enter in Account Name",
@@ -615,7 +653,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 63309600,
+              "status": "passed"
             },
             "line": 20,
             "name": "I enter the Account Number",
@@ -626,7 +665,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 66608400,
+              "status": "passed"
             },
             "line": 21,
             "name": "I enter the Account Site",
@@ -637,7 +677,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 366532400,
+              "status": "passed"
             },
             "line": 22,
             "name": "I click save",
@@ -648,7 +689,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 6788200,
+              "status": "passed"
             },
             "line": 23,
             "name": "I should see the Account Record",

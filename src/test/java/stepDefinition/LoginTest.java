@@ -24,7 +24,7 @@ public class LoginTest extends BaseClass{
 		
 		caps = new DesiredCapabilities();
         caps.setJavascriptEnabled(true); // not really needed: JS enabled by default
-        caps.setCapability(PhantomJSDriverService.PHANTOMJS_EXECUTABLE_PATH_PROPERTY, System.getProperty("user.dir") + "/Drivers/phantomjs");
+        caps.setCapability(PhantomJSDriverService.PHANTOMJS_EXECUTABLE_PATH_PROPERTY, System.getProperty("user.dir") + "/Drivers/phantomjs.exe");
         driver = new PhantomJSDriver(caps);
 		
 		driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
