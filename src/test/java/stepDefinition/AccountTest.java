@@ -74,18 +74,18 @@ public class AccountTest extends BaseClass {
 
 	@When("^I create an Account$")
 	public void I_create_an_Account(DataTable accountDetails) {
-		List<Map<String, String>> accountData = accountDetails.asMaps();
-		for (Map<String, String> data : accountData) {
-			driver.findElement(By.linkText("Accounts")).click();
-			driver.findElement(By.name("new")).click();
-			driver.findElement(By.id("acc2")).sendKeys(data.get("Account Name"));
-			WebElement type = driver.findElement(By.id("acc9"));
-			Select typeField = new Select(type);
-			typeField.selectByValue(data.get("Rating"));
-			driver.findElement(By.id("acc5")).sendKeys(data.get("Account Number"));
-			driver.findElement(By.id("acc12")).sendKeys(data.get("Website"));
-			driver.findElement(By.name("save")).click();
-		}
+//		List<Map<String, String>> accountData = accountDetails.asMaps();
+//		for (Map<String, String> data : accountData) {
+//			driver.findElement(By.linkText("Accounts")).click();
+//			driver.findElement(By.name("new")).click();
+//			driver.findElement(By.id("acc2")).sendKeys(data.get("Account Name"));
+//			WebElement type = driver.findElement(By.id("acc9"));
+//			Select typeField = new Select(type);
+//			typeField.selectByValue(data.get("Rating"));
+//			driver.findElement(By.id("acc5")).sendKeys(data.get("Account Number"));
+//			driver.findElement(By.id("acc12")).sendKeys(data.get("Website"));
+//			driver.findElement(By.name("save")).click();
+//		}
 	}
 
 	@When("^I click the button \"([^\"]*)\"$")

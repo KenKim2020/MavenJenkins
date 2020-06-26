@@ -4,159 +4,706 @@
     "elements": [
       {
         "line": 4,
-        "name": "As a valid user I should be able to login into the application",
+        "name": "",
         "description": "",
-        "id": "test-login-functionality;as-a-valid-user-i-should-be-able-to-login-into-the-application",
-        "type": "scenario",
-        "keyword": "Scenario",
+        "type": "background",
+        "keyword": "Background",
         "steps": [
           {
             "result": {
-              "duration": 164346500,
+              "duration": 5261726000,
               "status": "passed"
             },
             "line": 5,
-            "name": "I open the browser",
+            "name": "I Open Chrome Browser",
             "match": {
-              "location": "LoginTest.i_open_the_browser()"
+              "location": "LoginTest.I_Open_Chrome_Browser()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 83100,
+              "duration": 2133923600,
               "status": "passed"
             },
             "line": 6,
-            "name": "I go to the application",
+            "name": "I maxmize the webbrowser",
             "match": {
-              "location": "LoginTest.i_go_to_the_application()"
+              "location": "LoginTest.I_maxmize_the_webbrowser()"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 2240900,
+              "duration": 1300436000,
               "status": "passed"
             },
             "line": 7,
-            "name": "I should see the logo",
+            "name": "I go to the Salesforce application",
             "match": {
-              "location": "LoginTest.i_should_see_the_logo()"
+              "location": "LoginTest.I_go_to_the_Salesforce_application()"
             },
-            "keyword": "Then "
+            "keyword": "When "
           },
           {
             "result": {
-              "duration": 82500,
+              "duration": 350173000,
               "status": "passed"
             },
             "line": 8,
-            "name": "I enter a valid username",
+            "name": "I should see the Salesforce logo",
             "match": {
-              "location": "LoginTest.i_enter_a_valid_username()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 67200,
-              "status": "passed"
-            },
-            "line": 9,
-            "name": "I enter a valid password",
-            "match": {
-              "location": "LoginTest.i_enter_a_valid_password()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 76600,
-              "status": "passed"
-            },
-            "line": 10,
-            "name": "I should see the logo",
-            "match": {
-              "location": "LoginTest.i_should_see_the_logo()"
+              "location": "LoginTest.I_should_see_the_Salesforce_logo()"
             },
             "keyword": "Then "
           }
         ]
       },
       {
-        "line": 12,
-        "name": "As a valid user I should be able to login into the application",
+        "line": 27,
+        "name": "Test using Valid Credentials",
         "description": "",
-        "id": "test-login-functionality;as-a-valid-user-i-should-be-able-to-login-into-the-application",
+        "id": "test-login-functionality;test-using-valid-credentials;;2",
         "type": "scenario",
-        "keyword": "Scenario",
+        "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 78300,
+              "duration": 1466315700,
               "status": "passed"
             },
-            "line": 13,
-            "name": "I open the browser",
+            "line": 12,
+            "name": "I enter \"batch03@codegator.us.qa\" username",
             "match": {
-              "location": "LoginTest.i_open_the_browser()"
+              "arguments": [
+                {
+                  "val": "batch03@codegator.us.qa",
+                  "offset": 9
+                }
+              ],
+              "location": "AccountTest.I_enter_username(String)"
             },
-            "keyword": "Given "
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
           },
           {
             "result": {
-              "duration": 62100,
+              "duration": 210116700,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I enter \"Pa55word\" password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Pa55word",
+                  "offset": 9
+                }
+              ],
+              "location": "AccountTest.I_enter_password(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1553627200,
               "status": "passed"
             },
             "line": 14,
-            "name": "I go to the application",
+            "name": "I click the login button",
             "match": {
-              "location": "LoginTest.i_go_to_the_application()"
+              "location": "LoginTest.I_click_the_login_button()"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 52800,
+              "duration": 4016912400,
               "status": "passed"
             },
-            "comments": [
-              {
-                "line": 15,
-                "value": "# Then I should see the logo"
-              }
-            ],
-            "line": 16,
-            "name": "I enter a valid username",
+            "line": 15,
+            "name": "I should see the logout link",
             "match": {
-              "location": "LoginTest.i_enter_a_valid_username()"
+              "location": "LoginTest.I_should_see_the_logot_link()"
             },
-            "keyword": "And "
+            "keyword": "Then "
           },
           {
             "result": {
-              "duration": 247800,
+              "duration": 268024800,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I click the Accounts Tab",
+            "match": {
+              "location": "AccountTest.I_click_the_Accounts_Tab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 623786800,
               "status": "passed"
             },
             "line": 17,
-            "name": "I enter a valid password",
+            "name": "I am on Accounts Home Page",
             "match": {
-              "location": "LoginTest.i_enter_a_valid_password()"
+              "location": "AccountTest.I_am_on_Accounts_Home_Page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 932187400,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I click the New button",
+            "match": {
+              "location": "AccountTest.I_click_the_New_Button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 220597800,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I enter in Account Name",
+            "match": {
+              "location": "AccountTest.I_enter_in_Account_Name()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 276451500,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I enter the Account Number",
+            "match": {
+              "location": "AccountTest.I_enter_the_Account_Number()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 60200,
+              "duration": 181845600,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I enter the Account Site",
+            "match": {
+              "location": "AccountTest.I_enter_the_Account_Site()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2329482600,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I click save",
+            "match": {
+              "location": "AccountTest.I_click_save()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 40389700,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I should see the Account Record",
+            "match": {
+              "location": "AccountTest.I_should_see_the_Account_Record()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 10,
+            "name": "@Sprint2"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3459999500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I Open Chrome Browser",
+            "match": {
+              "location": "LoginTest.I_Open_Chrome_Browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2148319000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I maxmize the webbrowser",
+            "match": {
+              "location": "LoginTest.I_maxmize_the_webbrowser()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1601222000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I go to the Salesforce application",
+            "match": {
+              "location": "LoginTest.I_go_to_the_Salesforce_application()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 372442200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I should see the Salesforce logo",
+            "match": {
+              "location": "LoginTest.I_should_see_the_Salesforce_logo()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 28,
+        "name": "Test using Valid Credentials",
+        "description": "",
+        "id": "test-login-functionality;test-using-valid-credentials;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2070127100,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I enter \"batch03@codegator.us.qa\" username",
+            "match": {
+              "arguments": [
+                {
+                  "val": "batch03@codegator.us.qa",
+                  "offset": 9
+                }
+              ],
+              "location": "AccountTest.I_enter_username(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 177884600,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I enter \"Pa55word\" password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Pa55word",
+                  "offset": 9
+                }
+              ],
+              "location": "AccountTest.I_enter_password(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 153431300,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I click the login button",
+            "match": {
+              "location": "LoginTest.I_click_the_login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3314277200,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I should see the logout link",
+            "match": {
+              "location": "LoginTest.I_should_see_the_logot_link()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 864426200,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I click the Accounts Tab",
+            "match": {
+              "location": "AccountTest.I_click_the_Accounts_Tab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 654049300,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I am on Accounts Home Page",
+            "match": {
+              "location": "AccountTest.I_am_on_Accounts_Home_Page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 753247600,
               "status": "passed"
             },
             "line": 18,
-            "name": "I should see the logo",
+            "name": "I click the New button",
             "match": {
-              "location": "LoginTest.i_should_see_the_logo()"
+              "location": "AccountTest.I_click_the_New_Button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 307987400,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I enter in Account Name",
+            "match": {
+              "location": "AccountTest.I_enter_in_Account_Name()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 212288700,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I enter the Account Number",
+            "match": {
+              "location": "AccountTest.I_enter_the_Account_Number()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 249850900,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I enter the Account Site",
+            "match": {
+              "location": "AccountTest.I_enter_the_Account_Site()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2769450600,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I click save",
+            "match": {
+              "location": "AccountTest.I_click_save()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 280563200,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I should see the Account Record",
+            "match": {
+              "location": "AccountTest.I_should_see_the_Account_Record()"
             },
             "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 10,
+            "name": "@Sprint2"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4553368100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I Open Chrome Browser",
+            "match": {
+              "location": "LoginTest.I_Open_Chrome_Browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2209324100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I maxmize the webbrowser",
+            "match": {
+              "location": "LoginTest.I_maxmize_the_webbrowser()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2636564800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I go to the Salesforce application",
+            "match": {
+              "location": "LoginTest.I_go_to_the_Salesforce_application()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 711363100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I should see the Salesforce logo",
+            "match": {
+              "location": "LoginTest.I_should_see_the_Salesforce_logo()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 29,
+        "name": "Test using Valid Credentials",
+        "description": "",
+        "id": "test-login-functionality;test-using-valid-credentials;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2564398600,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I enter \"batch03@codegator.us.qa\" username",
+            "match": {
+              "arguments": [
+                {
+                  "val": "batch03@codegator.us.qa",
+                  "offset": 9
+                }
+              ],
+              "location": "AccountTest.I_enter_username(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 212515300,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I enter \"Pa55word\" password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Pa55word",
+                  "offset": 9
+                }
+              ],
+              "location": "AccountTest.I_enter_password(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 921376700,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I click the login button",
+            "match": {
+              "location": "LoginTest.I_click_the_login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2375270400,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I should see the logout link",
+            "match": {
+              "location": "LoginTest.I_should_see_the_logot_link()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 698668300,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I click the Accounts Tab",
+            "match": {
+              "location": "AccountTest.I_click_the_Accounts_Tab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 648695300,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I am on Accounts Home Page",
+            "match": {
+              "location": "AccountTest.I_am_on_Accounts_Home_Page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 775249100,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I click the New button",
+            "match": {
+              "location": "AccountTest.I_click_the_New_Button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 196358100,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I enter in Account Name",
+            "match": {
+              "location": "AccountTest.I_enter_in_Account_Name()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 160546800,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I enter the Account Number",
+            "match": {
+              "location": "AccountTest.I_enter_the_Account_Number()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 185710700,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I enter the Account Site",
+            "match": {
+              "location": "AccountTest.I_enter_the_Account_Site()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1739444600,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I click save",
+            "match": {
+              "location": "AccountTest.I_click_save()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 24243900,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I should see the Account Record",
+            "match": {
+              "location": "AccountTest.I_should_see_the_Account_Record()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 10,
+            "name": "@Sprint2"
           }
         ]
       }
